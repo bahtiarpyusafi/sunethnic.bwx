@@ -1,0 +1,15 @@
+.jumbotron{
+    background-color: #FFB127;
+    padding: 20px;
+}
+@media (min-width: 992px) {
+    .jumbotron .row{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .jumbotron .col{
+        flex: 0 0 auto;
+        width: 50%;
+        text-align: right;
+    }
+}
